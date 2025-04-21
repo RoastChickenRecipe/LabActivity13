@@ -80,7 +80,7 @@
                         <div class="card-body">
 
                             @foreach($userData as $row)
-                                <div class="post-outline">
+                                <div class="post-outline mt-4">
                                     <div class="post-bg row m-0 justify-content-center">
                                         <div class="col col-8 outline text-center">
                                             <h4>{{$row->title}}</h4>
